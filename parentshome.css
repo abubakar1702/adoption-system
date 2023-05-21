@@ -1,0 +1,107 @@
+
+/*backgroung color*/
+
+body{
+
+   background-color:#003333;
+}
+
+/*welcome text*/
+
+h1{
+
+ font-family: 'Inter', sans-serif;
+ color:teal;
+ text-align: center;
+}
+
+.image image{
+  object-fit: cover;
+}
+
+ /* Add a teal background color to the top navigation */
+.topnav {
+  background-color:#003333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color:#003333;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+.adopt{
+
+  display: flex;
+
+  padding: 10px;
+}
+
+.adopt>div:first-child{ 
+  margin-right:20px;  
+} 
+
+.adopt>div:second-child{ 
+  margin-right:20px;
+  }
+
+.text{
+
+  font-size: 20px;
+  font-family:'Inter', sans-serif ;
+  color: teal; 
+} 
+ 
+
+
+ /*divmain*/
+
+ .div-main-1{
+
+  margin:5%;
+  background-color:floralwhite;
+  display: flex;
+  flex-grow: wrap;
+ }
+
+
+
+ .Adopt-btn button{
+  padding: 10px;
+  width: 90px;
+  background-color: #003333;
+  color: #f2f2f2;
+  border-radius: 5px;
+  border: 0;
+}
+
+.Adopt-btn button:hover{
+  background-color:#005151;
+}
+
+.Adopt-btn{
+  margin-left: 10px;
+}

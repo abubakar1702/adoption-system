@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,500,600,800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: white;
+}
+div.main{
+	width:1000px;
+	margin: 100px auto 0px auto;
+	background: center;
+	margin-bottom: 8%;
+	margin-left: 12%;
+	font-family: 'Lato';
+}
+h2{
+	text-align: center;
+	padding: 2%;
+	font-family: sans-serif;
+	color:white;
+
+}
+div.AdoptionForm{
+    width: 100%;
+    font-size: 18px;
+    /* border-radius: 10px; */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgb(198, 210, 213);
+    /* box-shadow: 5px 5px 5px grey; */
+
+
+}
+form#AdoptionForm{
+     margin: 40px;	
+}
+label{
+	font-family: sans-serif;
+	font-size: 18px;
+
+}
+input#name{
+	width: 300px;
+    border: 1px solid;
+    border-radius: 5px;
+    outline: 0;
+    padding: 7px;
+    box-shadow: 1px 1px 1px 1px grey;
+    background-color: #ffff;
+}
+input#submit{
+	width: 100px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 600;
+	border-radius: 3px;
+	background-color:teal;
+	cursor: pointer;
+	border: 1px hidden;
+	box-shadow: 1px 1px 1px 1px grey;
+	margin-bottom: 20px;
+}
+input#reset{
+	width: 100px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 600;
+	border-radius: 3px;
+	background-color:teal;
+	cursor: pointer;
+	border: 1px hidden;
+	box-shadow: 1px 1px 1px 1px grey;
+	margin-bottom: 20px;
+}
+
+.Adp-caption{
+
+	background-color: teal;
+}
+
+

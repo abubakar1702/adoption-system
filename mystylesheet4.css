@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,800&display=swap');
+body {
+	background-color: #f5f7fa;
+}
+
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
+
+.aqua-gradient {
+  /* background: linear-gradient(40deg, #2096ff, #05ffa3) !important; */
+  background: linear-gradient(40deg, #29B695, #33787B) !important;
+  /* background-color: #33787B; */
+}
+
+.testimonial-card .avatar {
+  width: 170px;
+  height: 180px;
+  margin-top: -65px;
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+header{
+  width:100%;
+  height: auto;
+  background-color: #33787B;
+}
+header h1{
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+}
+
+.btn{
+    background-color: #33787B;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+}
+
+.container{
+  margin-top: 50px;
+}

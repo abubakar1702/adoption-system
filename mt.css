@@ -1,0 +1,108 @@
+/* Googlefont Poppins CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    background-color: teal;
+    font-family: 'Lato';
+}
+header h1{
+    text-align: center;
+    padding-top: 10px;
+    color: aliceblue;
+}
+
+h2{
+    font-family: 'Lato';
+}
+
+.s-up a{
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #05396B;
+    font-family: 'Lato';
+}
+.s-up{
+    margin-top:30px;
+}
+.info-container{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin:0 auto;
+}
+
+.existing-member input{
+    width: 50%;
+    height: 60px;
+    margin: 4px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+}
+
+.existing-member h2{
+    padding: 10px;
+    margin: 5px;
+}
+
+.existing-member select{
+    height:40px;
+    width: 50%;
+    border-radius: 5px;
+    margin: 4px;
+    text-align: center;
+}
+.existing-member button{
+    height:40px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    width: 50%;
+    margin: 4px;
+}
+.new-member a{
+    height: 50px;
+    width: 30%;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    margin: 4px;
+    padding: 20px;
+    color: white;
+    background-color: #05396B;
+}
+footer{
+    background-color: rgb(99, 99, 99);
+    color: aliceblue;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+.f-txt{
+    margin-top:10px;
+    font-family: 'Lato';
+}
+.s-f{
+    position: static;
+    bottom: 0;
+}
+
+span{
+    font-family: 'Lato';
+}
+
+button:hover{
+    cursor: pointer;
+}
